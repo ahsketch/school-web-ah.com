@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #0171f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.logo {
+  width: 100px;
+}
+.links a {
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.links a:hover {
+  background-color: lightblue;
+}
+.bot {
+  background-color: chartreuse;
+  border-radius: 15px;
+  padding: 7px 15px;
+  color: white;
+  border: none;
+}
+.bot:hover {
+  background-color: lightblue;
+}
+.landing-page {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 15px;
+  color: white;
+  border-radius: 0 0 50px 50px;
+}
+.landing-page-search input {
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  height: 30px;
+  padding: 0 10px;
+}
+.landing-page-search button {
+  position: absolute;
+  left: 180px;
+  height: 30;
+}
+.landing-page-img img {
+  border-radius: 20px;
+  width: 250;
+}
+.landing-page-left {
+  width: 500px;
+}
+.grad {
+  padding: 25px 50px;
+}
+.grad-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grad-view h1 {
+  margin-top: 0px;
+}
+.grad-view span {
+  color: red;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+}
+.card-info img {
+  width: 50px;
+}
+.card {
+  width: 300px;
+  background-color: beige;
+  border-radius: 20px;
+}
+.card .car {
+  border-radius: 20px 20px 0 0;
+}
+.asd {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
